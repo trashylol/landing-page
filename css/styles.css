@@ -1,0 +1,44 @@
+:root {
+    --font-family: "Rubik"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--font-family), sans-serif
+
+}
+
+a {
+    color: inherit;
+}
+
+header{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+   background-color: white;
+   padding: 0px 15px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-list {
+    display: flex;
+    gap: 1rem;
+    padding-right: 50px;
+}
+
+.icon {
+    max-width: 105px;
+}
+
+body {
+    background-color: bisque;
+}
