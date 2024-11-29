@@ -189,7 +189,9 @@ main {
     gap: 5px;
 }
 
-
+.menu-label{
+    display: none;
+}
 
 @media (max-width: 992px){
 #hero {
